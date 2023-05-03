@@ -1,0 +1,598 @@
+{
+    "WOZ20371.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20088.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20368.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] serves [value_food] food in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20393.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20241.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "they serve [value_food] food .",
+        "you are welcome . goodbye ."
+    ],
+    "WOZ20161.json": [
+        "what kind of food would you like ?",
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20134.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20642.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20273.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20496.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "the address is [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20458.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20560.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20521.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "[restaurant_name] serves [value_food] food .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20459.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20198.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20363.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "[restaurant_name] serves [value_food] food .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20097.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20423.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "they serve [value_food] food .",
+        "[restaurant_name] is in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20399.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town ."
+    ],
+    "WOZ20411.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20141.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20480.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20471.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20561.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] s address is [restaurant_address] .",
+        "you are welcome . goodbye ."
+    ],
+    "WOZ20191.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20367.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "they serve [value_food] food .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20032.json": [
+        "what kind of food would you like ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20577.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20186.json": [
+        "what kind of food would you like ?",
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20401.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20396.json": [
+        "what kind of food would you like to try something else ?",
+        "yes , [restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "the address is [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20487.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20599.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20390.json": [
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] ."
+    ],
+    "WOZ20348.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] ."
+    ],
+    "WOZ20434.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] serves [value_food] food in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] ."
+    ],
+    "WOZ20003.json": [
+        "[restaurant_name] serves [value_food] food in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20051.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20180.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "the address is [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20501.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town .",
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20102.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20231.json": [
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20616.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20222.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] serves [value_food] food in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20649.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20300.json": [
+        "what kind of food would you like to try something else ?",
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "the address is [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20486.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20627.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town ."
+    ],
+    "WOZ20606.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20248.json": [
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "[restaurant_name] is in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20043.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20272.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "what kind of food would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20098.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20173.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20621.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town .",
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20297.json": [
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town ."
+    ],
+    "WOZ20168.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20543.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "i have [value_count] restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "i am sorry , there are no restaurant -s that serve [value_food] food .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town ."
+    ],
+    "WOZ20513.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20301.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "i have [value_count] restaurant -s in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20663.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20633.json": [
+        "what kind of food would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20041.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20317.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20100.json": [
+        "what kind of food would you like ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20150.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20285.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] serves [value_food] food ."
+    ],
+    "WOZ20541.json": [
+        "what kind of food would you like to try ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20648.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20048.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20136.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town .",
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20130.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20287.json": [
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "goodbye ."
+    ],
+    "WOZ20289.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20157.json": [
+        "what kind of food would you like ?",
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20567.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20594.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20504.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "there are [value_count] restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "goodbye ."
+    ],
+    "WOZ20670.json": [
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20133.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20361.json": [
+        "there are [value_count] restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] s phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20213.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "they serve [value_food] food .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20602.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20243.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "i am sorry , there are no restaurant -s that serve [value_food] food .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20476.json": [
+        "i have [value_count] restaurant -s in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20026.json": [
+        "yes , [restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20505.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20540.json": [
+        "what kind of food would you like ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20447.json": [
+        "what kind of food would you like ?",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20466.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20341.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "you are [value_count] restaurant -s in the [value_area] part of town .",
+        "[restaurant_name] s phone number is [restaurant_phone] .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20387.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "[restaurant_name] s phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20092.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20609.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] s phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20571.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20059.json": [
+        "yes , there are [value_count] restaurant -s in the [value_area] part of town . would you like more information ?",
+        "i have [value_count] restaurant -s in the [value_area] part of town . would you like more information ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] s phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20451.json": [
+        "[restaurant_name] is a [value_food] restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ],
+    "WOZ20270.json": [
+        "i am sorry , there are no restaurant -s in the [value_area] part of town . would you like to try something else ?",
+        "[restaurant_name] is a nice restaurant in the [value_area] part of town .",
+        "[restaurant_name] is located at [restaurant_address] and the phone number is [restaurant_phone] .",
+        "thank you for using the cambridge restaurant system . goodbye ."
+    ]
+}
