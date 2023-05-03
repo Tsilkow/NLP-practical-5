@@ -70,6 +70,7 @@ def belief_state(bstate, summary_bstate, domain):
     # YOUR CODE HERE
     summary_bstate = []
     for entry, value in bstate[domain]['semi'].items():
+        if entry == 'requested': continue
         if value == 'not mentioned': tmp = [1, 0, 0]
         elif value == 'don\'t care': tmp = [0, 1, 0]
         else: tmp = [0, 0, 1]
@@ -111,7 +112,7 @@ def get_summary_bstate(bstate):
         summary_bstate: list
     """
     summary_bstate = []
-
+    
     summary_bstate = belief_state(bstate, summary_bstate, _DOMAIN)
 
     summary_bstate = requested_state(bstate, summary_bstate, _DOMAIN)

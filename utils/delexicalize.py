@@ -85,11 +85,11 @@ def prepare_slot_values_independent():
                 # Remember to normalize the value before adding it to the list!
                 # YOUR CODE HERE:
                 elif key == Slots.AREA.value:
-                    delex_list.append((normalize(val), '[value_area]'))
+                    delex_area.append((normalize(val), '[value_area]'))
                 elif key == Slots.FOOD.value:
-                    delex_list.append((normalize(val), '[value_food]'))
+                    delex_food.append((normalize(val), '[value_food]'))
                 elif key == Slots.PRICERANGE.value:
-                    delex_list.append((normalize(val), '[value_pricerange]'))
+                    delex_price.append((normalize(val), '[value_price]'))
                 # YOUR CODE ENDS HERE.
 
                 else:

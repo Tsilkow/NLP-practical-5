@@ -162,7 +162,8 @@ class Model(nn.Module):
         decoder_input = None
 
         # YOUR CODE STARTS HERE:
-
+        encoder_outputs, encoder_hidden = self.encoder(input_tensor, input_lengths)
+        decoder_hidden = self.policy(encoder_hidden, db_tensor, bs_tensor)
         # YOUR CODE ENDS HERE.
 
         # GENERATOR
@@ -174,9 +175,10 @@ class Model(nn.Module):
         for t in range(target_length):
             # YOUR CODE STARTS HERE:
             # update decoder output and hidden states
-
+            decoder_output, decoder_hidden = self.decoder(
+                decoder_input, decoder_hidden, encoder_outputs)
             # Teacher forcing for next decoder input of shape [B,1]
-
+            decoder_input = target_tensor[:, t].view(-1, 1)
             # YOUR CODE ENDS HERE.
             
             proba[:, t, :] = decoder_output

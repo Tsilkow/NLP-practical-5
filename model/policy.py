@@ -49,7 +49,18 @@ class SoftmaxPolicy(nn.Module):
         self.encoding_layer = None
 
         # YOUR CODE STARTS HERE:
+        self.act_num = 10
+        self.hidden_size = hidden_size
+        
+        self.W_u = nn.Linear(self.hidden_size, hidden_size_pol, bias=False)
+        self.W_bs = nn.Linear(bs_size, hidden_size_pol, bias=False)
+        self.W_db = nn.Linear(db_size, hidden_size_pol, bias=False)
 
+        self.first_layer = nn.Linear(self.hidden_size, self.hidden_size, bias=False)
+        self.second_layer = nn.Linear(self.hidden_size, self.act_num, bias=False)
+        self.encoding_layer = nn.Linear(self.act_num, self.hidden_size, bias=False)
+
+        self.softmax = nn.Softmax(dim=0)
         # YOUR CODE ENDS HERE.
 
     def forward(self, encodings, db_tensor, bs_tensor, act_tensor=None):
@@ -59,7 +70,11 @@ class SoftmaxPolicy(nn.Module):
             hidden = encodings
 
         # YOUR CODE STARTS HERE:
-
+        output = self.W_u(hidden[0]) + self.W_db(db_tensor) + self.W_bs(bs_tensor)
+        output = self.first_layer(output)
+        output = self.second_layer(output)
+        output = self.softmax(output)
+        output = self.encoding_layer(output)
         # YOUR CODE ENDS HERE.
 
         if isinstance(encodings, tuple):  # return LSTM tuple

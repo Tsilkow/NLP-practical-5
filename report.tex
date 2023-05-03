@@ -1,0 +1,46 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,mathtools}
+\newcommand{\shellcmd}[1]{\\\indent\indent\texttt{\footnotesize\# #1}\\}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+
+\def\[#1\]{\begin{align*}#1\end{align*}} 
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+\title{Practical No. 5 }%replace X with the appropriate number
+\author{Tomasz Siłkowski\\ %replace with your name
+ts407106@students.mimuw.edu.pl}
+ 
+\maketitle
+
+\setcounter{section}{1}
+\section{Neural Implementation }
+\subsection*{e) Training and testing}
+After 15 epochs of training, following scores were achieved in testing:
+\begin{table}[h]
+\begin{tabular}{llll}
+  Method & BLEU & Inform rate & Success rate \\
+  Greedy & 0.236 & 95.92\% & 56.12\% \\
+  Beam & 0.239 & 96.94\% & 56.12\% \\
+\end{tabular}
+\end{table}
+
+%  \smallbreak
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}
