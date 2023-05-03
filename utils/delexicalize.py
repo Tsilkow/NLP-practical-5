@@ -75,7 +75,7 @@ def prepare_slot_values_independent():
                     delex_list.append((normalize(val), '[' + domain + '_' + 'postcode' + ']'))
                 elif key == Slots.PHONE.value:
                     delex_list.append((val, '[' + domain + '_' + 'phone' + ']'))
-
+                    
                 # TODO TASK d)
                 # Add delexicalized tokens for three slots key: area, food and pricerange
                 # to the list of all possible dictionary slot-value pairs.
@@ -84,7 +84,12 @@ def prepare_slot_values_independent():
                 # (value, [value_name_of_the_slot])
                 # Remember to normalize the value before adding it to the list!
                 # YOUR CODE HERE:
-
+                elif key == Slots.AREA.value:
+                    delex_list.append((normalize(val), '[value_area]'))
+                elif key == Slots.FOOD.value:
+                    delex_list.append((normalize(val), '[value_food]'))
+                elif key == Slots.PRICERANGE.value:
+                    delex_list.append((normalize(val), '[value_pricerange]'))
                 # YOUR CODE ENDS HERE.
 
                 else:

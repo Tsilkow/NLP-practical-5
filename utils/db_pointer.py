@@ -33,7 +33,12 @@ def one_hot_vector(num_entities, domain, vector):
     """
     available_entities = np.array([0, 0, 0, 0, 0, 0])
     # YOUR CODE HERE
-
+    if num_entities <= 0: available_entities[0] = 1
+    elif num_entities <= 2: available_entities[1] = 1
+    elif num_entities <= 5: available_entities[2] = 1
+    elif num_entities <= 10: available_entities[3] = 1
+    elif num_entities <= 40: available_entities[4] = 1
+    else: available_entities[5] = 1
     # YOUR CODE ENDS HERE
     return available_entities
 

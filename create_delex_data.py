@@ -68,7 +68,12 @@ def belief_state(bstate, summary_bstate, domain):
         summary_bstate: list
     """
     # YOUR CODE HERE
-
+    summary_bstate = []
+    for entry, value in bstate[domain]['semi'].items():
+        if value == 'not mentioned': tmp = [1, 0, 0]
+        elif value == 'don\'t care': tmp = [0, 1, 0]
+        else: tmp = [0, 0, 1]
+        summary_bstate.extend(tmp)
     # YOUR CODE ENDS HERE
     return summary_bstate
 
@@ -90,7 +95,8 @@ def requested_state(bstate, summary_bstate, domain):
     for slot in [
         "pricerange", "area", "food", "phone", "address", "postcode", "name"]:
         # YOUR CODE HERE
-
+        if slot in bstate[domain]['semi']['requested']: summary_bstate.append(1)
+        else: summary_bstate.append(0)
         # YOUR CODE ENDS HERE
     return summary_bstate
 
