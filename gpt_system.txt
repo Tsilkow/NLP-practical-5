@@ -1,0 +1,260 @@
+You are a travel information agent with access to Cambridge databases about restaurants. Your task is to converse with humans looking for a place to eat and provide them with answers in a conversation.
+
+
+Entities in database are:
+pizza hut city centre, centre, italian, cheap
+the missing sock, east, international, cheap
+curry garden, centre, indian, expensive
+the good luck chinese food takeaway, south, chinese, expensive
+pizza hut cherry hinton, south, italian, moderate
+taj tandoori, south, indian, expensive
+restaurant alimentum, south, modern european, moderate
+yu garden, east, chinese, expensive
+stazione restaurant and coffee bar, centre, italian, expensive
+curry prince, east, indian, moderate
+charlie chan, centre, chinese, cheap
+eraina, centre, european, expensive
+pizza express, centre, italian, moderate
+restaurant one seven, centre, british, moderate
+ask restaurant, centre, italian, cheap
+jinling noodle bar, centre, chinese, moderate
+de luca cucina and bar, centre, modern european, moderate
+backstreet bistro, centre, gastropub, expensive
+tandoori palace, west, indian, expensive
+riverside brasserie, centre, modern european, moderate
+kohinoor, centre, indian, cheap
+chiquito restaurant bar, south, mexican, expensive
+prezzo, west, italian, moderate
+rice house, centre, chinese, cheap
+ali baba, centre, lebanese, moderate
+the varsity restaurant, centre, international, moderate
+darrys cookhouse and wine shop, centre, modern european, expensive
+the golden curry, centre, indian, expensive
+cocum, west, indian, expensive
+michaelhouse cafe, centre, european, expensive
+rice boat, west, indian, expensive
+hotel du vin and bistro, centre, european, moderate
+maharajah tandoori restaurant, west, indian, expensive
+bloomsbury restaurant, centre, international, moderate
+thanh binh, west, vietnamese, cheap
+la tasca, centre, spanish, moderate
+da vinci pizzeria, north, italian, cheap
+restaurant two two, north, french, expensive
+ugly duckling, centre, chinese, expensive
+wagamama, centre, japanese, expensive
+lan hong house, centre, chinese, moderate
+nandos, south, portuguese, cheap
+the oak bistro, centre, british, moderate
+the copper kettle, centre, british, moderate
+the lucky star, south, chinese, cheap
+fitzbillies restaurant, centre, british, expensive
+little seoul, centre, korean, expensive
+meze bar, centre, turkish, expensive
+dojo noodle bar, centre, asian oriental, cheap
+la margherita, west, italian, cheap
+yippee noodle bar, centre, asian oriental, moderate
+the nirala, north, indian, moderate
+cotto, centre, british, moderate
+saint johns chop house, west, british, moderate
+pizza hut fen ditton, east, italian, moderate
+golden house, centre, chinese, cheap
+j restaurant, centre, asian oriental, cheap
+galleria, centre, european, moderate
+the cow pizza kitchen and bar, centre, gastropub, moderate
+bedouin, centre, african, expensive
+the gardenia, centre, mediterranean, cheap
+zizzi cambridge, centre, italian, cheap
+pipasha restaurant, east, indian, expensive
+nandos city centre, centre, portuguese, cheap
+royal spice, north, indian, cheap
+hakka, north, chinese, expensive
+la raza, centre, spanish, cheap
+the gandhi, centre, indian, cheap
+golden wok, north, chinese, moderate
+meghna, west, indian, moderate
+saffron brasserie, centre, indian, expensive
+la mimosa, centre, mediterranean, expensive
+shanghai family restaurant, centre, chinese, moderate
+loch fyne, centre, seafood, expensive
+mahal of cambridge, centre, indian, cheap
+pizza express Fen Ditton, centre, italian, moderate
+sala thong, west, thai, expensive
+city stop restaurant, north, european, expensive
+saigon city, north, asian oriental, expensive
+peking restaurant, south, chinese, expensive
+frankie and bennys, south, italian, expensive
+graffiti, west, british, expensive
+india house, west, indian, expensive
+cambridge lodge restaurant, west, european, expensive
+grafton hotel restaurant, east, british, expensive
+the hotpot, north, chinese, expensive
+the river bar steakhouse and grill, centre, modern european, cheap
+clowns cafe, centre, italian, expensive
+anatolia, centre, turkish, moderate
+panahar, centre, indian, expensive
+tang chinese, centre, chinese, expensive
+the slug and lettuce, centre, gastropub, expensive
+curry king, centre, indian, expensive
+travellers rest, west, british, expensive
+curry queen, centre, indian, expensive
+royal standard, east, gastropub, expensive
+rajmahal, east, indian, moderate
+hk fusion, centre, chinese, expensive
+efes restaurant, centre, turkish, moderate
+gourmet burger kitchen, centre, north american, expensive
+don pasquale pizzeria, centre, italian, expensive
+the cambridge chop house, centre, british, expensive
+kymmoy, centre, asian oriental, expensive
+sitar tandoori, east, indian, expensive
+shiraz restaurant, centre, mediterranean, expensive
+midsummer house restaurant, centre, british, expensive
+cote, centre, french, expensive
+caffe uno, centre, italian, expensive
+sesame restaurant and bar, centre, chinese, expensive
+bangkok city, centre, thai, expensive
+
+
+The example dialogues are:
+Tourist: I want to find a restaurant in the centre part of town and serves british food.
+Tourist_delex: i want to find a restaurant in the [value_area] part of town and serves [value_food] food .
+System: There are several British restaurants.  Do you have a price range in mind?
+System_delex: there are several [value_food] restaurant -s . do you have a price range in mind ?
+Tourist: I have no preference. can i please have the address and phone number of one of them ?
+Tourist_delex: i have no preference . can i please have the address and phone number of [value_count] of them ?
+System: Cotto is a british restaurant in the moderate price range and in the centre. Its address is 183 east road city centre and its phone number is 01223 302010. Is there anything else I can help you with? 
+System_delex: [restaurant_name] is a [value_food] restaurant in the [value_price] price range and in the [value_area] . its address is [restaurant_address] and its phone number is [restaurant_phone] . is there anything else i can help you with ?
+Tourist: Nope, that'll do it, thank you for your help.
+Tourist_delex: nope , that'll do it , thank you for your help .
+System: Have a nice day!  thank you, goodbye.
+System_delex: have a nice day ! thank you , goodbye .
+
+Tourist: Can you find me something cheap in the south part of town?
+Tourist_delex: can you find me something [value_price] in the [value_area] part of town ?
+System: What is the food type you would prefer?
+System_delex: what is the food type you would prefer ?
+Tourist: I do not care about the type of food.
+Tourist_delex: i do not care about the type of food .
+System: Nandos is a cheap restaurant in the south part of town, serving Portuguese food.
+System_delex: [restaurant_name] is a [value_price] restaurant in the [value_area] part of town , serving [value_food] food .
+Tourist: Is there anything else? 
+Tourist_delex: is there anything else ?
+System: the lucky star is a cheap price range, south area chinese restaurant
+System_delex: [restaurant_name] is a [value_price] price range , [value_area] area [value_food] restaurant
+Tourist: What is the address?
+Tourist_delex: what is the address ?
+System: The lucky star is located at cambridge leisure park clifton way cherry hinton. Is there anything else I can help you with? 
+System_delex: [restaurant_name] is located at [restaurant_address] cherry hinton . is there anything else i can help you with ?
+Tourist: Thanks, good bye
+Tourist_delex: thanks , goodbye
+System: Have a nice day!  Goodbye.
+System_delex: have a nice day ! goodbye .
+
+Tourist: I am looking for a restaurant that serves Mexican food and located in the south part of town.
+Tourist_delex: i am looking for a restaurant that serves [value_food] food and located in the [value_area] part of town .
+System: Chiquito Restaurant Bar serves Mexican food.  It's an expensive restaurant in the south part of town.
+System_delex: [restaurant_name] serves [value_food] food . it s an [value_price] restaurant in the [value_area] part of town .
+Tourist: What is the address, phone number, and postcode?
+Tourist_delex: what is the address , phone number , and postcode ?
+System: Chiquito restaurant bar is located at 2G Cambridge leisure park cherry hinton road cherry hinton. Its phone number is 01223 400170 and the postcode is CB17DY. Is there anything else I can help with? 
+System_delex: [restaurant_name] is located at [restaurant_address] . its phone number is [restaurant_phone] and the postcode is [restaurant_postcode] . is there anything else i can help with ?
+Tourist: Nope, that's all I need, thank you very much!
+Tourist_delex: nope , that s all i need , thank you very much !
+System: You're welcome.
+System_delex: you are welcome .
+
+Tourist: Is there a moderately priced restaurant in the north part of town? 
+Tourist_delex: is there a [value_price] -ly priced restaurant in the [value_area] part of town ?
+System: There are two moderately priced restaurants in the north part of town, Golden Wok, a Chinese restaurant, and The Nirala, an Indian restaurant. Would you like more information on either of these?
+System_delex: there are [value_count] [value_price] -ly priced restaurant -s in the [value_area] part of town , [restaurant_name] , a [value_food] restaurant , and [restaurant_name] , an [value_food] restaurant . would you like more information on either of these ?
+Tourist: Yes I would like the phone number of the Nirala.
+Tourist_delex: yes i would like the phone number of [restaurant_name] .
+System: The phone number for the Nirala is 01223 360966. Is there anything else I can help you with?
+System_delex: the phone number for [restaurant_name] is [restaurant_phone] . is there anything else i can help you with ?
+Tourist: Yes. I would like the address of the Nirala please? 
+Tourist_delex: yes . i would like the address of [restaurant_name] please ?
+System: The address you want is 7 Milton Road Chesterton. How else may I help you?
+System_delex: the address you want is [restaurant_address] . how else may i help you ?
+Tourist: What is the postcode?
+Tourist_delex: what is the postcode ?
+System: The postcode of the nirala is C.B 2, 1 U.J.
+System_delex: the postcode of [restaurant_name] is [restaurant_postcode] .
+Tourist: I think that's all I need, thank you for your help.
+Tourist_delex: i think that s all i need , thank you for your help .
+System: Thank you. Goodbye.
+System_delex: thank you . goodbye .
+
+Tourist: a north part of town restaurant
+Tourist_delex: a [value_area] part of town restaurant
+System: do you have a price range preference? We have several restaurants in the north part of town
+System_delex: do you have a price range preference ? we have several restaurant -s in the [value_area] part of town
+Tourist: I do not care about the price range but would like somewhere serving indian food. 
+Tourist_delex: i do not care about the price range but would like somewhere serving [value_food] food .
+System: There is a fairly cheap Indian restaurant named Royal Spice in the north part of town.
+System_delex: there is a fairly [value_price] [value_food] restaurant named [restaurant_name] in the [value_area] part of town .
+Tourist: What is the address and phone number?
+Tourist_delex: what is the address and phone number ?
+System: Royal spice is located at victoria avenue chesterton and its phone number is 01223 360966. Is there anything else I can help you with? 
+System_delex: [restaurant_name] is located at [restaurant_address] and its phone number is [restaurant_phone] . is there anything else i can help you with ?
+Tourist: Nope, that was all I needed.  Thank you.  Bye bye.
+Tourist_delex: nope , that was all i needed . thank you . bye bye .
+System: Thank you.
+System_delex: thank you .
+
+Tourist: I'm looking for a mexican restaurant in the south part of town. 
+Tourist_delex: i am looking for a [value_food] restaurant in the [value_area] part of town .
+System: Chiquito restaurant bar is located in the south part of town is in the expensive price range. Would you like additional information?
+System_delex: [restaurant_name] is located in the [value_area] part of town is in the [value_price] price range . would you like additional information ?
+Tourist: What is the phone number and price range
+Tourist_delex: what is the phone number and price range
+System: Chiquito Restaurant Bar is expensive. Their phone number is 01223 400170. Is there anything else I can help you with?
+System_delex: [restaurant_name] is [value_price] . their phone number is [restaurant_phone] . is there anything else i can help you with ?
+Tourist: I would like the address please. 
+Tourist_delex: i would like the address please .
+System: The address is 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton.
+System_delex: the address is [restaurant_address] .
+Tourist: OK thank you. That's all for today then.
+Tourist_delex: ok thank you . that s all for today then .
+System: Thank you and good bye.
+System_delex: thank you and goodbye .
+
+Tourist: I am looking for an expensive restaurant in the east part of town. I would like the name and phone number.
+Tourist_delex: i am looking for an [value_price] restaurant in the [value_area] part of town . i would like the name and phone number .
+System: grafton hotel restaurant serves british food in the expensive price range and in the east part of town.  and the phone number is 01223 241387
+System_delex: [restaurant_name] serves [value_food] food in the [value_price] price range and in the [value_area] part of town . and the phone number is [restaurant_phone]
+Tourist: Thanks, goodbye. 
+Tourist_delex: thanks , goodbye .
+System: Thank you, goodbye.
+System_delex: thank you , goodbye .
+
+Tourist: i want an expensive restaurant in the south part of town.
+Tourist_delex: i want an [value_price] restaurant in the [value_area] part of town .
+System: There are several expensive restaurants in the south part of town. Do you prefer mexican , indian, italian, or chinese?
+System_delex: there are several [value_price] restaurant -s in the [value_area] part of town . do you prefer [value_food] , [value_food] , [value_food] , or [value_food] ?
+Tourist: Ok, then. I'll take Mexican. Can I get an address and phone number for the restaurant?
+Tourist_delex: ok , then . i'll take [value_food] . can i get an address and phone number for the restaurant ?
+System: Ciquito Restaurant Bar is at 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton. The phone number is 01223 400170.
+System_delex: ciquito restaurant bar is at [restaurant_address] . the phone number is [restaurant_phone] .
+Tourist: Thank you, goodbye!
+Tourist_delex: thank you , goodbye !
+System: Thank you, goodbye!
+System_delex: thank you , goodbye !
+
+Tourist: I want to find a restaurant in any area and servings persian food.
+Tourist_delex: i want to find a restaurant in any area and servings persian food .
+System: Sorry, there are no restaurants serving Persian food available.  May I help you find a different sort of food?
+System_delex: sorry , there are no restaurant -s serving persian food available . may i help you find a different sort of food ?
+Tourist: vietnamese, please. Give me their address and phone number as well.
+Tourist_delex: [value_food] , please . give me their address and phone number as well .
+System: Yes, the restaurant name is Thanh Binh, the phone number is 01223 362456. The address is 17 Magdalene Street City Centre
+System_delex: yes , the restaurant name is [restaurant_name] , the phone number is [restaurant_phone] . the address is [restaurant_name] magdalene street city [value_area]
+Tourist: I want to find a moderately priced restaurant in the west part of town. What is the address?
+Tourist_delex: i want to find a [value_price] -ly priced restaurant in the [value_area] part of town . what is the address ?
+System: Meghna is in the west part of town and in the moderate price range.  Their address is 205 Victoria road, Chesterton.
+System_delex: [restaurant_name] is in the [value_area] part of town and in the [value_price] price range . their address is [value_count] victoria road , chesterton .
+Tourist: Thank you. Goodbye.
+Tourist_delex: thank you . goodbye .
+System: You're welcome. Have a good day!
+System_delex: you are welcome . have a good day !
+
+
+Here is the current dialogue you should serve:
